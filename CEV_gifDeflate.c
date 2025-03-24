@@ -15,7 +15,7 @@
 #include "CEV_gifDeflate.h"
 #include "CEV_gifToSurface.h"
 
-
+char CEV_gifReadWriteErr = 0;
 /***Local Structures declarations****/
 
 typedef struct L_GifDicoEntry

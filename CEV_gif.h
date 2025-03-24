@@ -58,7 +58,7 @@ enum
 typedef struct CEV_GifAnim CEV_GifAnim;
 
 
-char CEV_gifReadWriteErr;/**< Any file r/w error occurred */
+extern char CEV_gifReadWriteErr;/**< Any file r/w error occurred */
 
 
 /** \brief Loads gif file.
