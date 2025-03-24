@@ -8,10 +8,10 @@
 #include <stdlib.h>
 #include <stdint.h>
 #include <string.h>
-#include <SDL.h>
+#include <SDL2/SDL.h>
 #include "CEV_gifToSurface.h"
 #include "CEV_gif.h"
-
+#include <errno.h>
 
 
 void L_gifFillSurface(uint8_t *pixels, L_GifFile* gif, int index)

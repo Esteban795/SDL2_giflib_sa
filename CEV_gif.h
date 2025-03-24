@@ -8,7 +8,7 @@
 #ifndef GIFUSER_H_INCLUDED
 #define GIFUSER_H_INCLUDED
 
-#include <SDL.h>
+#include <SDL2/SDL.h>
 
 #define GIF_FORWARD     0
 #define GIF_BACKWARD    1
