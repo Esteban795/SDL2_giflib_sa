@@ -13,6 +13,10 @@
 #include "CEV_gif.h"
 #include <errno.h>
 
+void gif_getSize(CEV_GifAnim *gif, int *width, int *height) {
+    *width = gif->display.pos.w;
+    *height = gif->display.pos.h;
+}
 
 void L_gifFillSurface(uint8_t *pixels, L_GifFile* gif, int index)
 {//fills pixel fields / consecutive
